@@ -29,8 +29,8 @@
     // méthode « verifyNoMoreInteractions »
             verifyNoMoreInteractions(calculatrice);
     // TODO : Vérification de l'état de l'objet après l'appel de la
-    //méthode "additionner", penser à utiliser la méthode
-    //« getState() » de la directive « verify » : // exemple :
+    // méthode "additionner", penser à utiliser la méthode
+    // « getState() » de la directive « verify » : // exemple :
 
             //La methode getState ne veut pas marcher
             when(calculatrice.getState()).thenReturn("hello");
